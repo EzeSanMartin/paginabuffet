@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.titulo {
+    text-align: center;
+    background-color: rgb(40, 42, 58);
+    font-size: 2em;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+.contenido1 {
+    margin: auto;
+    text-align: center;
+    padding-left: 20px;
+    font-style: italic;
+    border: 5px solid rgb(0, 0, 0);
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid rgb(40, 42, 58);
+    transition: 1s;
+}
+
+img:hover {
+    background-color: burlywood;
+}
+
+.imagenes { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+footer {
+    color: beige;
+}
+
+.Encuesta {
+    justify-content: center;
+    border: 5px solid rgb(40, 42, 58);
+    margin-left: 20px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+#encuestacomida {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid rgb(40, 42, 58);
+    border-radius: 5%;
+    width: 50%;
+    margin: auto;
+}
+hr {
+    border-color: rgb(40, 42, 58);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>
+        Buffet De Tenis Loma Negra
+    </title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Buffet De Tenis 
+            <br>Loma Negra 
+        </h1>
+        <hr>
+    </div>
+    <div class="contenido1">
+        <h2>Bienvenidos a nuestro buffet de tenis</h2>
+
+        <p>En este sitio podrás encontrar toda la información necesaria para disfrutar de un día de tenis en Loma Negra.</p>
+       
+            <li>comidas</li>
+            <li>bebidas</li>
+            <li>snacks</li>
+            y mucho más.
+        
+    </div>
+
+    <div class="imagenes">
+        <a id="foto" href="./links/hamburgesa.html"><img src="./imagenes/foto principal.webp" alt=""></a>
+        <a id="foto" href="./links/hamburgesa.html"><img src="./imagenes/hamburgesa.webp" alt=""></a>
+        <a id="foto" href="./links/papasfritas.html"><img src="./imagenes/papas fritas.webp" alt=""></a>
+    </div>
+    <hr>
+        <h2 id="encuestacomida">Encuesta de Comida Aqui!</h2>
+    <hr>
+
+    <div class="Encuesta">
+            <form action="#" method="post">
+                <label for="comida_favorita">¿Cuál es tu comida favorita?</label><br>
+                <input type="text" id="comida_favorita" name="comida_favorita" required><br><br>
+                
+                <p>¿Qué tipo de comida prefieres?</p>
+                <select name="tipo_comida" required>
+                    <option value="mexicana">Mexicana</option>
+                    <option value="italiana">Italiana</option>
+                    <option value="china">China</option>
+                    <option value="japonesa">Japonesa</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="otra">Otra</option>
+
+                </select><br><br>
+                
+                <p>¿Qué sabores te gustan más? (Selecciona todas las que apliquen)</p>
+                <input type="checkbox" name="sabores" value="dulce"> Dulce<br>
+                <input type="checkbox" name="sabores" value="salado"> Salado<br>
+                <input type="checkbox" name="sabores" value="ácido"> Ácido<br>
+                <input type="checkbox" name="sabores" value="picante"> Picante<br>
+                <input type="checkbox" name="sabores" value="amargo"> Amargo<br><br>
+                
+                <label for="comentarios">Comentarios adicionales:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+                
+                <button type="submit">Enviar Encuesta</button>
+            </form>
+    </div>
+    <div>
+        <footer>
+            <a href="https://www.instagram.com/buffetlomanegra/">Contacto de instagram</a>
+        </footer>
+    </div>
+    
+    
+</body>
+</html>
